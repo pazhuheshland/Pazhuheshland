@@ -1,0 +1,27 @@
+ body  .h1{
+    color: red;
+  }
+
+  body .right .title{
+    color: black;
+    font-size: 2em;
+  }
+ 
+  body .right .des{
+    color: #666;
+    font-size: 1.5em;
+     
+     
+  }
+ .index-img-container{
+    text-align: center;
+     
+     padding: 30px;
+ }
+ .index-img-container img{
+    width: 90%;
+ }
+
+   .row .img{
+    width:100%;
+   }

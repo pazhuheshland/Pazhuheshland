@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>راهنمای سایت</title>
+    <!-- لینک به Font Awesome برای استفاده از آیکون‌ها -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        /* استایل‌های CSS */
+        body {
+            font-family: Arial, sans-serif;
+            direction: rtl;
+            background-color: #f9f9f9;
+            margin: 20px;
+        }
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+        .section {
+            margin-bottom: 10px;
+        }
+        .section-title {
+            background-color: #007bff;
+            color: #fff;
+            padding: 10px;
+            cursor: pointer;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-radius: 5px;
+        }
+        .section-title i {
+            transition: transform 0.3s;
+        }
+        .section-content {
+            display: none;
+            background-color: #fff;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            margin-top: 5px;
+        }
+        ol {
+            padding-right: 20px;
+        }
+        li {
+            margin-bottom: 5px;
+        }
+    </style>
+</head>
+<body>
+    <h1>راهنمای استفاده از سایت</h1>
+    <div class="section">
+        <div class="section-title" onclick="toggleSection(this)">
+            <span><i class="fas fa-user-plus"></i> ثبت‌نام در سایت</span>
+            <i class="fas fa-chevron-down"></i>
+        </div>
+        <div class="section-content">
+            <p>برای ثبت‌نام در سایت، مراحل زیر را دنبال کنید:</p>
+            <ol>
+                <li>در صفحه اصلی، بر روی گزینه "ثبت‌نام" کلیک کنید.</li>
+                <li>فرم مربوطه را با اطلاعات صحیح و کامل پر کنید.</li>
+                <li>پس از تکمیل فرم، بر روی دکمه "ارسال" کلیک نمایید.</li>
+                <li>یک ایمیل تأیید برای شما ارسال می‌شود؛ با کلیک بر روی لینک موجود در ایمیل، ثبت‌نام شما نهایی می‌گردد.</li>
+            </ol>
+        </div>
+    </div>
+    <div class="section">
+        <div class="section-title" onclick="toggleSection(this)">
+            <span><i class="fas fa-search"></i> جستجوی محصولات آموزشی</span>
+            <i class="fas fa-chevron-down"></i>
+        </div>
+        <div class="section-content">
+            <p>برای جستجوی محصولات آموزشی:</p>
+            <ol>
+                <li>در نوار جستجو، نام محصول یا موضوع مورد نظر خود را تایپ کنید.</li>
+                <li>بر روی آیکون جستجو کلیک کنید تا نتایج مرتبط نمایش داده شوند.</li>
+                <li>از بین نتایج، محصول مورد نظر خود را انتخاب کنید.</li>
+            </ol>
+        </div>
+    </div>
+
+    <div class="section">
+        <div class="section-title" onclick="toggleSection(this)">
+            <span><i class="fas fa-cart-plus"></i> افزودن محصول به سبد خرید</span>
+            <i class="fas fa-chevron-down"></i>
+        </div>
+        <div class="section-content">
+            <p>برای افزودن محصول به سبد خرید:</p>
+            <ol>
+                <li>پس از انتخاب محصول، بر روی دکمه "افزودن به سبد خرید" کلیک کنید.</li>
+                <li>برای مشاهده سبد خرید، بر روی آیکون سبد خرید در بالای صفحه کلیک نمایید.</li>
+                <li>در صورت صحت محصولات انتخابی، بر روی دکمه "نهایی کردن خرید" کلیک کنید.</li>
+            </ol>
+        </div>
+    </div>
+
+    <div class="section">
+        <div class="section-title" onclick="toggleSection(this)">
+            <span><i class="fas fa-credit-card"></i> تکمیل فرآیند خرید</span>
+<i class="fas fa-chevron-down"></i>
+        </div>
+        <div class="section-content">
+            <p>برای تکمیل خرید خود:</p>
+            <ol>
+                <li>اطلاعات مورد نیاز برای ارسال، مانند آدرس و شماره تماس را وارد کنید.</li>
+                <li>روش پرداخت مورد نظر خود را انتخاب نمایید.</li>
+                <li>پس از بررسی نهایی، بر روی دکمه "تأیید و پرداخت" کلیک کنید.</li>
+            </ol>
+        </div>
+    </div>
+
+    <div class="section">
+        <div class="section-title" onclick="toggleSection(this)">
+            <span><i class="fas fa-headset"></i> ارتباط با پشتیبانی</span>
+            <i class="fas fa-chevron-down"></i>
+        </div>
+        <div class="section-content">
+            <p>برای ارتباط با پشتیبانی:</p>
+            <ol>
+                <li>به بخش "تماس با ما" مراجعه کنید.</li>
+                <li>فرم موجود را پر کرده و پیام خود را ارسال نمایید.</li>
+                <li>پشتیبانی در اسرع وقت با شما تماس خواهد گرفت.</li>
+            </ol>
+        </div>
+    </div>
+     
+
+    <!-- بخش‌های دیگر راهنما را به همین صورت اضافه کنید -->
+    <script>
+        // اسکریپت جاوا اسکریپت برای نمایش و مخفی کردن محتوای بخش‌ها
+        function toggleSection(element) {
+            const content = element.nextElementSibling;
+            const icon = element.querySelector('.fas.fa-chevron-down');
+            if (content.style.display === "none" || content.style.display === "") {
+                content.style.display = "block";
+                icon.style.transform = "rotate(180deg)";
+            } else {
+                content.style.display = "none";
+                icon.style.transform = "rotate(0deg)";
+            }
+        }
+    </script>
+</body>
+</html>

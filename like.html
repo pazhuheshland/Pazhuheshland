@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>دکمه لایک با آیکون</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        .like-button {
+            background-color: #fff;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            padding: 8px 12px;
+            cursor: pointer;
+            display: inline-flex;
+            align-items: center;
+        }
+
+        .like-button i {
+            margin-right: 5px;
+        }
+
+        .liked {
+            color: red; /* یا هر رنگ دیگری که دوست دارید */
+        }
+    </style>
+</head>
+<body>
+
+    <button class="like-button" onclick="toggleLike(this)">
+        <i class="far fa-heart"></i>
+        <span>پسند</span>
+    </button>
+
+    <script>
+        function toggleLike(button) {
+            const icon = button.querySelector('i');
+            const isLiked = icon.classList.contains('fas');
+
+            if (isLiked) {
+                icon.classList.remove('fas', 'fa-heart');
+                icon.classList.add('far', 'fa-heart');
+                button.classList.remove('liked');
+            } else {
+                icon.classList.remove('far', 'fa-heart');
+                icon.classList.add('fas', 'fa-heart');
+                button.classList.add('liked');
+            }
+        }
+    </script>
+
+</body>
+</html>

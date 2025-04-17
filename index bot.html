@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>چت آنلاین با ربات</title>
+    <link rel="stylesheet" href="styles bot.css">
+</head>
+<body>
+
+    <div class="chat-container">
+        <div class="chat-header" onclick="toggleChat()">💬 پشتیبانی آنلاین</div>
+        <div class="chat-box" id="chatBox">
+            <div class="chat-messages" id="chatMessages"></div>
+            <input type="text" id="chatInput" placeholder="پیام خود را بنویسید..." onkeypress="sendMessage(event)">
+        </div>
+    </div>
+
+    <script src="script bot.js"></script>
+</body>
+</html>
