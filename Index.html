@@ -1,0 +1,1348 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="./farhangi.html">
+    <link rel="stylesheet" href="./dastan.html">
+    <link rel="stylesheet" href="./css3/home3.css">
+    <link rel="stylesheet" href="./fonts3/CHAKMEH2-Circle Dots.ttf">
+    <link rel="stylesheet" href="./css3/main3.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css3/style.css">
+    <link rel="stylesheet" href="./css3/animate.css">
+    <link rel="stylesheet" href="./css3/flexboxgrid.css/css/flexboxgrid.css">
+    <link rel="stylesheet" href="./index bat.html"> 
+    <link rel="stylesheet" href="./css3/owl.theme.default.min.css">
+    <link rel="stylesheet" href="./like.html">
+    <meta http-equiv="X-UA-ompatible" content="ie=edge">
+    <link 
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" 
+    />        
+    <title>pazhuhesh_land</title>
+</head>
+<body>
+ 
+    <header>
+        <nav>  
+            <div class="nav-right">
+                <!-- بخش سمت راست نوار navigation -->
+                <a href="./panel.html"><i class="far fa-user"></i></a> <!-- لینک به پنل کاربری -->
+                <a href="./product.html"><i class="fas fa-shopping-cart"></i></a> <!-- لینک به صفحه محصولات/سبد خرید -->
+                <a href="#"><i class="fas fa-home"></i></a> <!-- لینک به صفحه اصلی -->
+                <a href="./index search.html"><i class="fas fa-search"></i></a> <!-- لینک به صفحه جستجو --> 
+                <a href="./farhangi.html"><i class="fas fa-tree"></i></a> <!-- لینک به صفحه فرهنگی -->
+                <a href="./dastan.html"><i class="fas fa-book"></i> </a> <!-- لینک به صفحه داستان --> 
+                <a href="./hushmasnuy.html"><i class="fas fa-brain"></i> + <i class="fas fa-camera"></i></a> <!-- لینک به صفحه هوش مصنوعی (شامل مغز و دوربین) -->
+                 
+                <a href="./icon.html"> </a>
+            </div>
+            <div class="nav-left">
+                <!-- بخش سمت چپ نوار navigation -->
+                <div class="register-login-btn">
+                    <!-- دکمه ثبت نام/ورود -->
+                    <i class="fas fa-user"></i>
+                    <a href="./login.html">ثبت نام/ ورود </a> <!-- لینک به صفحه ثبت نام/ورود -->
+                </div>     
+            </div>
+        </nav>
+        <section class="slider">
+            <!-- بخش اسلایدر -->
+            <div class="slides">
+                <!-- container اسلایدها -->
+                <div class="item active  " id="slide1"> 
+                    <!-- اسلاید اول (فعال) -->
+                    <img src="./images3/n4.jpg"  alt=""/> <!-- تصویر اسلاید اول -->
+                </div>
+                <div class="item   " id="slide2"> 
+                    <!-- اسلاید دوم -->
+                    <img src="./images3/p1.jpg" alt=""/> <!-- تصویر اسلاید دوم -->
+                    <span style="color: white"></span>  
+                </div>
+                <div class="item " id="slide3">
+                    <!-- اسلاید سوم -->
+                    <img src="./images3/سایت-دانلود-عکس.jpg" alt=""/> <!-- تصویر اسلاید سوم -->
+                </div>
+            </div>
+            <div class="buttons">
+                <!-- دکمه های navigation اسلایدر -->
+                <i onclick="setSlide('slide1', 1)" class="fas fa-circle"></i> <!-- دکمه اسلاید اول -->
+                <i onclick="setSlide('slide2', 2)" class="fas fa-circle"></i> <!-- دکمه اسلاید دوم -->
+                <i onclick="setSlide('slide3', 3)" class="fas fa-circle"></i> <!-- دکمه اسلاید سوم -->
+            </div>
+        </section>
+    </header>
+    <section class="product-sec-new">
+        <!-- بخش محصولات جدید -->
+        <div class="row">
+            <!-- ردیف (row) برای چیدمان محصولات در کنار هم -->
+            <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+                <!-- ستون (column) برای هر محصول - اندازه ها برای صفحه نمایش های مختلف -->
+                <div class="shoping-card">
+                    <!-- کارت محصول -->
+                    <div class="img-sec">
+                        <!-- بخش تصویر محصول -->
+                        <img src="./images3/IMG_20240914_115547_556.jpg" alt="">
+                        <!-- تصویر محصول -->
+                        <span class="hot-offer">پیشنهاد ویژه</span>
+                        <!-- برچسب "پیشنهاد ویژه" -->
+                        <div class="stars">
+                            <!-- بخش نمایش امتیاز/ستاره ها -->
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i> 
+                        </div>
+                    </div>
+                    <div class="title">
+                        <!-- بخش عنوان محصول -->
+                       گیفت هولدر عکس تدی 
+                    </div>
+                    <div class="buttons">
+                        <!-- بخش دکمه ها -->
+                        <div class="right">
+                            <!-- بخش سمت راست دکمه ها (قیمت) -->
+                            <span class="price">40 هزار تومان</span>       
+                        </div>
+                        <div class="left">
+                            <!-- بخش سمت چپ دکمه ها (علاقه و خرید) -->
+                            <div class="extend-btn">
+                                <!-- دکمه "علاقه" -->
+                                <a class="b-text" href="">علاقه</a>
+                                <a class="b-icon" href=" "><i class="fas fa-heart"></i></a>
+                            </div>
+                            <div class="extend-btn">
+                                <!-- دکمه "خرید" -->
+                                <a class="b-text" href="./product.html ">خرید</a>
+                                <a class="b-icon" href="./product.html"><i class="fas fa-shopping-cart"></i></a>
+                            </div> 
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+                <!-- ستون (column) برای هر محصول - اندازه ها برای صفحه نمایش های مختلف -->
+                <div class="shoping-card">
+                    <!-- کارت محصول -->
+                    <div class="img-sec">
+                        <!-- بخش تصویر محصول -->
+                        <img src="./images3/IMG_20240914_115342_145.jpg" alt="">
+                        <!-- تصویر محصول -->
+                        <span class="hot-offer">پیشنهاد ویژه</span>
+                        <!-- برچسب "پیشنهاد ویژه" -->
+                        <div class="stars">
+                            <!-- بخش نمایش امتیاز/ستاره ها -->
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i> 
+                        </div>
+                    </div>
+                    <div class="title">
+                        <!-- بخش عنوان محصول -->
+                        گیفت شمع ابر
+                    </div>
+                    <div class="buttons">
+                        <!-- بخش دکمه ها -->
+                        <div class="right">
+                            <!-- بخش سمت راست دکمه ها (قیمت) -->
+                            <span class="price">20 هزار تومان</span>       
+                        </div>
+                        <div class="left">
+                            <!-- بخش سمت چپ دکمه ها (علاقه و خرید) -->
+                            <div class="extend-btn">
+                                <!-- دکمه "علاقه" -->
+                                <a class="b-text" href="">علاقه</a>
+                                <a class="b-icon" href=" "><i class="fas fa-heart"></i></a>
+                            </div>
+                            <div class="extend-btn">
+                                <!-- دکمه "خرید" -->
+                                <a class="b-text" href="./product.html ">خرید</a>
+                                <a class="b-icon" href="./product.html"><i class="fas fa-shopping-cart"></i></a>
+                            </div> 
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+                <!-- ستون (column) برای هر محصول - اندازه ها برای صفحه نمایش های مختلف -->
+                <div class="shoping-card">
+                    <!-- کارت محصول -->
+                    <div class="img-sec">
+                        <!-- بخش تصویر محصول -->
+                        <img src="./images3/IMG_20240916_113255_382.jpg" alt="">
+                        <!-- تصویر محصول -->
+                        <span class="hot-offer">پیشنهاد ویژه</span>
+                        <!-- برچسب "پیشنهاد ویژه" -->
+                        <div class="stars">
+                            <!-- بخش نمایش امتیاز/ستاره ها -->
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i> 
+                        </div>
+                    </div>
+                    <div class="title">
+                        <!-- بخش عنوان محصول -->
+                        گیفت نوزاد
+                    </div>
+                    <div class="buttons">
+                        <!-- بخش دکمه ها -->
+                        <div class="right">
+                            <!-- بخش سمت راست دکمه ها (قیمت) -->
+                            <span class="price">45 هزار تومان</span>       
+                        </div>
+                        <div class="left">
+                            <!-- بخش سمت چپ دکمه ها (علاقه و خرید) -->
+                            <div class="extend-btn">
+                                <!-- دکمه "علاقه" -->
+                                <a class="b-text" href="">علاقه</a>
+                                <a class="b-icon" href=""><i class="fas fa-heart"></i></a>
+                            </div>
+                            <div class="extend-btn">
+                                <!-- دکمه "خرید" -->
+                                <a class="b-text" href="./product.html">خرید</a>
+                                <a class="b-icon" href="./product.html"><i class="fas fa-shopping-cart"></i></a>
+                            </div> 
+                        </div>
+                    </div>
+                   
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+                <!-- ستون (column) برای هر محصول - اندازه ها برای صفحه نمایش های مختلف -->
+                <div class="shoping-card">
+                    <!-- کارت محصول -->
+                    <div class="img-sec">
+                        <!-- بخش تصویر محصول -->
+                        <img src="./img2/InShot_20250303_145001561.jpg" alt="">
+                        <!-- تصویر محصول -->
+                        <span class="hot-offer">پیشنهاد ویژه</span>
+                        <!-- برچسب "پیشنهاد ویژه" -->
+                        <div class="stars">
+                            <!-- بخش نمایش امتیاز/ستاره ها -->
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i> 
+                        </div>
+                    </div>
+                    <div class="title">
+                        <!-- بخش عنوان محصول -->
+                        قاب گوشی      
+                    </div>
+                    <div class="buttons">
+                        <!-- بخش دکمه ها -->
+                        <div class="right">
+                            <!-- بخش سمت راست دکمه ها (قیمت) -->
+                            <span class="price">150 هزار تومان</span>       
+                        </div>
+                        <div class="left">
+                            <!-- بخش سمت چپ دکمه ها (علاقه و خرید) -->
+                            <div class="extend-btn">
+                                <!-- دکمه "علاقه" -->
+                                <a class="b-text" href="">علاقه</a>
+                                <a class="b-icon" href=""><i class="fas fa-heart"></i></a>
+                        </div>
+                        <div class="extend-btn">
+                            <!-- دکمه "خرید" -->
+                            <a class="b-text" href="./product.html">خرید</a>
+                            <a class="b-icon" href="./product.html"><i class="fas fa-shopping-cart"></i></a>
+                        </div> 
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+ 
+<section class="supper-offer-section">
+    <!-- بخش پیشنهاد شگفت انگیز -->
+    <div class="row">
+        <!-- ردیف (row) برای چیدمان محتوا -->
+        <div class="col-lg-9">
+            <!-- ستون (column) برای بخش اصلی پیشنهاد شگفت انگیز -->
+            <div class="supper-offer-box"> 
+                <!-- کادر پیشنهاد شگفت انگیز -->
+                <span class="supper-offer-box-title">
+                    پیشنهاد شگفت انگیز    
+                </span>
+                <!-- عنوان بخش -->
+                <div class="body">
+                    <!-- بدنه کادر -->
+                    <div class="row">  
+                        <!-- ردیف (row) برای چیدمان محتوا -->
+                        <div class="col-lg-4">
+                            <!-- ستون (column) برای تصویر محصول -->
+                            <div class="image-container">
+                                <img src="./images3/IMG_20241031_152831_550.jpg" alt="">
+                                <!-- تصویر محصول -->
+                            </div>
+                        </div>
+                        <div class="col-lg-8">
+                            <!-- ستون (column) برای مشخصات محصول -->
+                            <div class="spesification">
+                                <!-- بخش مشخصات محصول -->
+                                <div class="price-row">
+                                    <!-- ردیف (row) برای قیمت و تخفیف -->
+                                    <div class="price">1میلیون تومان</div>
+                                    <!-- قیمت محصول -->
+                                    <div class="off">50% تخفیف</div>
+                                    <!-- درصد تخفیف -->
+                                </div> 
+                                <div class="title">تابلو دکوراتیو سه تیکه</div>
+                                <!-- عنوان محصول -->
+                                <div class="counter-down">
+                                    <!-- بخش شمارش معکوس -->
+                                    <span id="seconds">40</span> :
+                                    <span id="minutes">26</span> :
+                                    <span id="hours">19</span>
+                                </div>
+                                <div class="remaining-time">زمان باقی مانده تا پایان سفارش</div>
+                                <!-- متن زمان باقی مانده -->
+                            </div>
+                        </div>
+                    </div> 
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-3">
+            <!-- ستون (column) برای بنر -->
+            <div class="banner">
+                <img src="./images3/Screenshot_۲۰۲۴۱۱۰۵_۲۲۰۳۰۵_Chrome.jpg" alt="">
+                <!-- تصویر بنر -->
+            </div>
+        </div>
+    </div>
+</section>
+        <section class="dragble-list">
+            <div class="title">
+                <span>محصولات  </span>
+            </div>
+            <div id="owl-product"  class="owl-carousel owl-theme">
+                <div class="item">
+                    <div class="shoping-card">
+                        <div class="img-sec">
+                            <img src="./images3/InShot_۲۰۲۴۱۱۰۵_۲۰۰۱۲۷۹۰۷.jpg" alt="">
+                             
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                        <div class="title"> 
+                            تابلوی دکوراتیو
+                        </div>
+                        <div class="buttons">
+                            <div class="right">
+                                <span class="price">1 میلیون تومان</span>       
+                            </div>
+                            <div class="left">
+                                <div class="extend-btn">
+                                    <a class="b-text" href="">علاقه</a>
+                                    <a class="b-icon" href=""><i class="fas fa-heart"></i></a>
+                                </div>
+                                <div class="extend-btn">
+                                    <a class="b-text" href="./product.html">خرید</a>
+                                    <a class="b-icon" href="./product.html"><i class="fas fa-shopping-cart"></i></a>
+                                </div> 
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+                <div class="item">
+                    <div class="shoping-card">
+                        <div class="img-sec">
+                            <img src="./images3/InShot_۲۰۲۴۱۱۰۵_۱۹۱۹۳۹۶۳۰.jpg" alt="">
+                             
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                        <div class="title">
+                            تابلو سنتی
+                        </div>
+                        <div class="buttons">
+                            <div class="right">
+                                <span class="price">600 هزار تومان</span>       
+                            </div>
+                            <div class="left">
+                                <div class="extend-btn">
+                                    <a class="b-text" href="">علاقه</a>
+                                    <a class="b-icon" href=""><i class="fas fa-heart"></i></a>
+                                </div>
+                                <div class="extend-btn">
+                                    <a class="b-text" href="./product.html">خرید</a>
+                                    <a class="b-icon" href="./product.html"><i class="fas fa-shopping-cart"></i></a>
+                                </div> 
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+                <div class="item">
+                    <div class="shoping-card">
+                        <div class="img-sec">
+                            <img src="./images3/InShot_۲۰۲۴۱۱۰۵_۱۹۱۸۵۵۹۶۴.jpg" alt="">
+                             
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                        <div class="title"> 
+                            تابلو سنتی
+                        </div>
+                        <div class="buttons">
+                            <div class="right">
+                                <span class="price"> 600 هزار تومان</span>       
+                            </div>
+                            <div class="left">
+                                <div class="extend-btn">
+                                    <a class="b-text" href="">علاقه</a>
+                                    <a class="b-icon" href=""><i class="fas fa-heart"></i></a>
+                                </div>
+                                <div class="extend-btn">
+                                    <a class="b-text" href="./product.html">خرید</a>
+                                    <a class="b-icon" href="./product.html"><i class="fas fa-shopping-cart"></i></a>
+                                </div> 
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="shoping-card">
+                        <div class="img-sec">
+                            <img src="./images3/InShot_۲۰۲۴۱۱۰۵_۱۹۲۱۳۳۲۹۱.jpg" alt="">
+                             
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>           
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                        <div class="title">
+                         تابلو دکواتیو
+                        </div>
+                        <div class="buttons">
+                            <div class="right">
+                                <span class="price"> 700 هزار تومان </span>       
+                            </div>
+                            <div class="left">
+                                <div class="extend-btn">
+                                    <a class="b-text" href="">علاقه</a>
+                                    <a class="b-icon" href=""><i class="fas fa-heart"></i></a>
+                                </div>
+                                <div class="extend-btn">
+                                    <a class="b-text" href=./product.html ">خرید</a>
+                                    <a class="b-icon" href="./product.html"><i class="fas fa-shopping-cart"></i></a>
+                                </div> 
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+                <div class="item">
+                    <div class="shoping-card">
+                        <div class="img-sec">
+                            <img src="./img/a9.jpg" alt="">
+                             
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                        <div class="title">
+                            زیر لیوانی رزین اپوکسی
+                        </div>
+                        <div class="buttons">
+                            <div class="right">
+                                <span class="price">100 هزار تومان</span>       
+                            </div>
+                            <div class="left">
+                                <div class="extend-btn">
+                                    <a class="b-text" href="">علاقه</a>
+                                    <a class="b-icon" href=""><i class="fas fa-heart"></i></a>
+                                </div>
+                                <div class="extend-btn">
+                                    <a class="b-text" href="./product.html">خرید</a>
+                                    <a class="b-icon" href="./product.html"><i class="fas fa-shopping-cart"></i></a>
+                                </div> 
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+                <div class="item">
+                    <div class="shoping-card">
+                        <div class="img-sec">
+                            <img src="./img/a10.jpg" alt="">
+                             
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                        <div class="title">
+                            زیر لیوانی رزین اپوکسی
+                        </div>
+                        <div class="buttons">
+                            <div class="right">
+                                <span class="price">100 هزار تومان</span>       
+                            </div>
+                            <div class="left">
+                                <div class="extend-btn">
+                                    <a class="b-text" href="">علاقه</a>
+                                    <a class="b-icon" href=""><i class="fas fa-heart"></i></a>
+                                </div>
+                                <div class="extend-btn">
+                                    <a class="b-text" href="./product.html">خرید</a>
+                                    <a class="b-icon" href="./product.html"><i class="fas fa-shopping-cart"></i></a>
+                                </div> 
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+                <div class="item">
+                    <div class="shoping-card">
+                        <div class="img-sec">
+                            <img src="./img/a1.jpg" alt="">
+                             
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                        <div class="title">
+                            استند اسم با تم وینی پو
+ 
+                        </div>
+                        <div class="buttons">
+                            <div class="right">
+                                <span class="price">150 هزار تومان</span>       
+                            </div>
+                            <div class="left">
+                                <div class="extend-btn">
+                                    <a class="b-text" href="">علاقه</a>
+                                    <a class="b-icon" href=""><i class="fas fa-heart"></i></a>
+                                </div>
+                                <div class="extend-btn">
+                                    <a class="b-text" href="./product.html">خرید</a>
+                                    <a class="b-icon" href="./product.html"><i class="fas fa-shopping-cart"></i></a>
+                                </div> 
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+                <div class="item">
+                    <div class="shoping-card">
+                        <div class="img-sec">
+                            <img src="./img/a3.jpg" alt="">
+                             
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                        <div class="title">
+                            گیفت هولدر عکس تدی 
+                         </div>
+                        <div class="buttons">
+                            <div class="right">
+                                <span class="price">40 هزار تومان </span>       
+                            </div>
+                            <div class="left">
+                                <div class="extend-btn">
+                                    <a class="b-text" href="">علاقه</a>
+                                    <a class="b-icon" href=""><i class="fas fa-heart"></i></a>
+                                </div>
+                                <div class="extend-btn">
+                                    <a class="b-text" href="./product.html">خرید</a>
+                                    <a class="b-icon" href="./product.html"><i class="fas fa-shopping-cart"></i></a>
+                                </div> 
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div> 
+                 
+                <div class="item">
+                    <div class="shoping-card">
+                        <div class="img-sec">
+                            <img src="./img/a5.jpg" alt="">
+                             
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>   
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                        <div class="title">
+                            وارمر تدی
+                         </div>
+                        <div class="buttons">
+                            <div class="right">
+                                <span class="price">50 هزار تومان</span>       
+                            </div>
+                            <div class="left">
+                                <div class="extend-btn">
+                                    <a class="b-text" href="">علاقه</a>
+                                    <a class="b-icon" href=""><i class="fas fa-heart"></i></a>
+                                </div>
+                                <div class="extend-btn">
+                                    <a class="b-text" href="./product.html">خرید</a>
+                                    <a class="b-icon" href="./product.html"><i class="fas fa-shopping-cart"></i></a>
+                                </div> 
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+                <div class="item">
+                    <div class="shoping-card">
+                        <div class="img-sec">
+                            <img src="./img/a6.jpg" alt="">
+                             
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                        <div class="title">
+                             گیفت هولدر عکس تدی
+                         </div>
+                        <div class="buttons">
+                            <div class="right">
+                                <span class="price">40 هزار تومان</span>       
+                            </div>
+                            <div class="left">
+                                <div class="extend-btn">
+                                    <a class="b-text" href="">علاقه</a>
+                                    <a class="b-icon" href=""><i class="fas fa-heart"></i></a>
+                                </div>
+                                <div class="extend-btn">
+                                    <a class="b-text" href="./product.html">خرید</a>
+                                    <a class="b-icon" href="./product.html"><i class="fas fa-shopping-cart"></i></a>
+                                </div> 
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+                <div class="item">
+                    <div class="shoping-card">
+                        <div class="img-sec">
+                            <img src="./img/a7.jpg" alt="">
+                             
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                        <div class="title">
+                            گیفت دندونی
+                         </div>
+                        <div class="buttons">
+                            <div class="right">
+                                <span class="price">10 هزار تومان</span>       
+                            </div>
+                            <div class="left">
+                                <div class="extend-btn">
+                                    <a class="b-text" href="">علاقه</a>
+                                    <a class="b-icon" href=""><i class="fas fa-heart"></i></a>
+                                </div>
+                                <div class="extend-btn">
+                                    <a class="b-text" href="./product.html">خرید</a>
+                                    <a class="b-icon" href="./product.html"><i class="fas fa-shopping-cart"></i></a>
+                                </div> 
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+                <div class="item">
+                    <div class="shoping-card">
+                        <div class="img-sec">
+                            <img src="./img/a8.jpg" alt="">
+                             
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                        <div class="title">
+                            استند اسم
+                         </div>
+                        <div class="buttons">
+                            <div class="right">
+                                <span class="price">150 هزار تومان</span>       
+                            </div>
+                            <div class="left">
+                                <div class="extend-btn">
+                                    <a class="b-text" href="">علاقه</a>
+                                    <a class="b-icon" href=""><i class="fas fa-heart"></i></a>
+                                </div>
+                                <div class="extend-btn">
+                                    <a class="b-text" href="./product.html">خرید</a>
+                                    <a class="b-icon" href="./product.html"><i class="fas fa-shopping-cart"></i></a>
+                                </div> 
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+                 
+                <div class="item">
+                    <div class="shoping-card">
+                        <div class="img-sec">
+                            <img src="./img2/InShot_20250302_111408855.jpg" alt="">
+                             
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                        <div class="title">
+                         قاب گوشی
+                         </div>
+                        <div class="buttons">
+                            <div class="right">
+                                <span class="price">150 هزار تومان</span>       
+                            </div>
+                            <div class="left">
+                                <div class="extend-btn">
+                                    <a class="b-text" href="">علاقه</a>
+                                    <a class="b-icon" href=""><i class="fas fa-heart"></i></a>
+                                </div>
+                                <div class="extend-btn">
+                                    <a class="b-text" href="./product.html">خرید</a>
+                                    <a class="b-icon" href="./product.html"><i class="fas fa-shopping-cart"></i></a>
+                                </div> 
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+                <div class="item">
+                    <div class="shoping-card">
+                        <div class="img-sec">
+                            <img src="./img2/InShot_20250302_111924272.jpg" alt="">
+                            
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                        <div class="title">
+                        شمع معطر بابونه
+                         </div>
+                        <div class="buttons">
+                            <div class="right">
+                                <span class="price">45 هزار تومان</span>       
+                            </div>
+                            <div class="left">
+                                <div class="extend-btn">
+                                    <a class="b-text" href="">علاقه</a>
+                                    <a class="b-icon" href=""><i class="fas fa-heart"></i></a>
+                                </div>
+                                <div class="extend-btn">
+                                    <a class="b-text" href="./product.html">خرید</a>
+                                    <a class="b-icon" href="./product.html"><i class="fas fa-shopping-cart"></i></a>
+                                </div> 
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+                <div class="item">
+                    <div class="shoping-card">
+                        <div class="img-sec">
+                            <img src="./img2/InShot_20250302_111851982.jpg" alt="">
+                             
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                        <div class="title">
+                         شمع معطر روبیک
+                         </div>
+                        <div class="buttons">
+                            <div class="right">
+                                <span class="price"> 50 هزار تومان</span>       
+                            </div>
+                            <div class="left">
+                                <div class="extend-btn">
+                                    <a class="b-text" href="">علاقه</a>
+                                    <a class="b-icon" href=""><i class="fas fa-heart"></i></a>
+                                </div>
+                                <div class="extend-btn">
+                                    <a class="b-text" href="./product.html">خرید</a>
+                                    <a class="b-icon" href="./product.html"><i class="fas fa-shopping-cart"></i></a>
+                                </div> 
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+                <div class="item">
+                    <div class="shoping-card">
+                        <div class="img-sec">
+                            <img src="./img2/InShot_20250302_111808917.jpg" alt="">
+                             
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                        <div class="title">
+                         شمع معطر مینیمال
+                         </div>
+                        <div class="buttons">
+                            <div class="right">
+                                <span class="price">25 هزار تومان</span>       
+                            </div>
+                            <div class="left">
+                                <div class="extend-btn">
+                                    <a class="b-text" href="">علاقه</a>
+                                    <a class="b-icon" href=""><i class="fas fa-heart"></i></a>
+                                </div>
+                                <div class="extend-btn">
+                                    <a class="b-text" href="./product.html">خرید</a>
+                                    <a class="b-icon" href="./product.html"><i class="fas fa-shopping-cart"></i></a>
+                                </div> 
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+                <div class="item">
+                    <div class="shoping-card">
+                        <div class="img-sec">
+                            <img src="./img2/InShot_20250302_111625084.jpg" alt="">
+                             
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                        <div class="title">
+                       شمع معطر تخم مرغ   
+                         </div>
+                        <div class="buttons">
+                            <div class="right">
+                                <span class="price">65 هزار تومان</span>       
+                            </div>
+                            <div class="left">
+                                <div class="extend-btn">
+                                    <a class="b-text" href="">علاقه</a>
+                                    <a class="b-icon" href=""><i class="fas fa-heart"></i></a>
+                                </div>
+                                <div class="extend-btn">
+                                    <a class="b-text" href="./product.html">خرید</a>
+                                    <a class="b-icon" href="./product.html"><i class="fas fa-shopping-cart"></i></a>
+                                </div> 
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+                <div class="item">
+                    <div class="shoping-card">
+                        <div class="img-sec">
+                            <img src="./img2/InShot_20250302_111612350.jpg" alt="">
+                             
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                        <div class="title">
+                         شمع معطر استوانه
+                         </div>
+                        <div class="buttons">
+                            <div class="right">
+                                <span class="price">30 هزار تومان</span>       
+                            </div>
+                            <div class="left">
+                                <div class="extend-btn">
+                                    <a class="b-text" href="">علاقه</a>
+                                    <a class="b-icon" href=""><i class="fas fa-heart"></i></a>
+                                </div>
+                                <div class="extend-btn">
+                                    <a class="b-text" href="./product.html">خرید</a>
+                                    <a class="b-icon" href="./product.html"><i class="fas fa-shopping-cart"></i></a>
+                                </div> 
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+                <div class="item">
+                    <div class="shoping-card">
+                        <div class="img-sec">
+                            <img src="./img2/InShot_20250302_111553813.jpg" alt="">
+                             
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                        <div class="title">
+                        شمع معطر گل
+                         </div>
+                        <div class="buttons">
+                            <div class="right">
+                                <span class="price">40 هزار تومان</span>       
+                            </div>
+                            <div class="left">
+                                <div class="extend-btn">
+                                    <a class="b-text" href="">علاقه</a>
+                                    <a class="b-icon" href=""><i class="fas fa-heart"></i></a>
+                                </div>
+                                <div class="extend-btn">
+                                    <a class="b-text" href="./product.html">خرید</a>
+                                    <a class="b-icon" href="./product.html"><i class="fas fa-shopping-cart"></i></a>
+                                </div> 
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+                <div class="item">
+                    <div class="shoping-card">
+                        <div class="img-sec">
+                            <img src="./img2/InShot_20250302_111446673.jpg" alt="">
+                             
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                        <div class="title">
+                         قاب گوشی
+                         </div>
+                        <div class="buttons">
+                            <div class="right">
+                                <span class="price">150 هزار تومان</span>       
+                            </div>
+                            <div class="left">
+                                <div class="extend-btn">
+                                    <a class="b-text" href="">علاقه</a>
+                                    <a class="b-icon" href=""><i class="fas fa-heart"></i></a>
+                                </div>
+                                <div class="extend-btn">
+                                    <a class="b-text" href="./product.html">خرید</a>
+                                    <a class="b-icon" href="./product.html"><i class="fas fa-shopping-cart"></i></a>
+                                </div> 
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+                <div class="item">
+                    <div class="shoping-card">
+                        <div class="img-sec">
+                            <img src="./img2/PicRetouch_۲۰۲۵۰۳۰۸_۱۳۲۴۵۹۵۷۵.jpg" alt="">
+                             
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                        <div class="title">
+                        سینی رزینی
+                         </div>
+                        <div class="buttons">
+                            <div class="right">
+                                <span class="price">250 هزار تومان</span>       
+                            </div>
+                            <div class="left">
+                                <div class="extend-btn">
+                                    <a class="b-text" href="">علاقه</a>
+                                    <a class="b-icon" href=""><i class="fas fa-heart"></i></a>
+                                </div>
+                                <div class="extend-btn">
+                                    <a class="b-text" href="./product.html">خرید</a>
+                                    <a class="b-icon" href="./product.html"><i class="fas fa-shopping-cart"></i></a>
+                                </div> 
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+                <div class="item">
+                    <div class="shoping-card">
+                        <div class="img-sec">
+                            <img src="./img2/v2.jpg" alt="">
+                             
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                        <div class="title">
+                        دیوارکوب
+                         </div>
+                        <div class="buttons">
+                            <div class="right">
+                                <span class="price">80 هزار تومان</span>       
+                            </div>
+                            <div class="left">
+                                <div class="extend-btn">
+                                    <a class="b-text" href="">علاقه</a>
+                                    <a class="b-icon" href=""><i class="fas fa-heart"></i></a>
+                                </div>
+                                <div class="extend-btn">
+                                    <a class="b-text" href="./product.html">خرید</a>
+                                    <a class="b-icon" href="./product.html"><i class="fas fa-shopping-cart"></i></a>
+                                </div> 
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+                <div class="item">
+                    <div class="shoping-card">
+                        <div class="img-sec">
+                            <img src="./img2/PicRetouch_۲۰۲۵۰۳۰۸_۱۳۳۲۴۲۴۰۴.jpg" alt="">
+                             
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                        <div class="title">
+                        دیوارکوب
+                         </div>
+                        <div class="buttons">
+                            <div class="right">
+                                <span class="price">80 هزار تومان</span>       
+                            </div>
+                            <div class="left">
+                                <div class="extend-btn">
+                                    <a class="b-text" href="">علاقه</a>
+                                    <a class="b-icon" href=""><i class="fas fa-heart"></i></a>
+                                </div>
+                                <div class="extend-btn">
+                                    <a class="b-text" href="./product.html">خرید</a>
+                                    <a class="b-icon" href="./product.html"><i class="fas fa-shopping-cart"></i></a>
+                                </div> 
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+                <var><div class="item">
+                    <div class="shoping-card">
+                        <div class="img-sec">
+                            <img src="./img2/PicRetouch_۲۰۲۵۰۳۰۸_۱۳۳۸۲۳۶۳۳.jpg" alt="">
+                             
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                        <div class="title">
+                        دیواکوب
+                         </div>
+                        <div class="buttons">
+                            <div class="right">
+                                <span class="price">80 هزار تومان</span>       
+                            </div>
+                            <div class="left">
+                                <div class="extend-btn">
+                                    <a class="b-text" href="">علاقه</a>
+                                    <a class="b-icon" href=""><i class="fas fa-heart"></i></a>
+                                </div>
+                                <div class="extend-btn">
+                                    <a class="b-text" href="./product.html">خرید</a>
+                                    <a class="b-icon" href="./product.html"><i class="fas fa-shopping-cart"></i></a>
+                                </div> 
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div></var>
+                <div class="item">
+                    <div class="shoping-card">
+                        <div class="img-sec">
+                            <img src="./img2/PicRetouch_۲۰۲۵۰۳۰۸_۱۳۴۱۴۳۹۵۵.jpg" alt="">
+                             
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                        <div class="title">
+                        زیر لیوانی رزین
+                         </div>
+                        <div class="buttons">
+                            <div class="right">
+                                <span class="price">80 هزار تومان</span>       
+                            </div>
+                            <div class="left">
+                                <div class="extend-btn">
+                                    <a class="b-text" href="">علاقه</a>
+                                    <a class="b-icon" href=""><i class="fas fa-heart"></i></a>
+                                </div>
+                                <div class="extend-btn">
+                                    <a class="b-text" href="./product.html">خرید</a>
+                                    <a class="b-icon" href="./product.html"><i class="fas fa-shopping-cart"></i></a>
+                                </div> 
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+                <div class="item">
+                    <div class="shoping-card">
+                        <div class="img-sec">
+                            <img src="./img2/PicRetouch_۲۰۲۵۰۳۰۸_۱۳۳۵۰۸۳۷۶.jpg" alt="">
+                             
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                        <div class="title">
+                        دیواکوب
+                         </div>
+                        <div class="buttons">
+                            <div class="right">
+                                <span class="price">80 هزار تومان</span>       
+                            </div>
+                            <div class="left">
+                                <div class="extend-btn">
+                                    <a class="b-text" href="">علاقه</a>
+                                    <a class="b-icon" href=""><i class="fas fa-heart"></i></a>
+                                </div>
+                                <div class="extend-btn">
+                                    <a class="b-text" href="./product.html">خرید</a>
+                                    <a class="b-icon" href="./product.html"><i class="fas fa-shopping-cart"></i></a>
+                                </div> 
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+
+
+            </div>
+            <link rel="stylesheet" href="./js/OwlCarousel2-2.3.4/docs/assets/owlcarousel/assets/owl.carousel.min.css">
+            <link rel="stylesheet" href="./js/OwlCarousel2-2.3.4/docs/assets/owlcarousel/assets/owl.theme.default.css">
+            <script src="./js/OwlCarousel2-2.3.4/docs/assets/vendors/jquery.min.js" ></script>
+            <script src="./js/OwlCarousel2-2.3.4/docs/assets/owlcarousel/owl.carousel.js"></script>
+            <div class="owl-carousel">
+                 
+              </div>
+            
+        </section>
+        <script>
+            $('.owl-carousel').owlCarousel({
+    ltr:true,
+    margin:10,
+    nav:true,
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:3
+        },
+        1000:{
+            items:5
+        }
+    }
+})
+        </script>
+    </main>
+    <footer>
+        <div class="row">
+            <div class="col-lg-8">
+                <div class="right">
+                    <div class="title">
+                        درباره ما
+                    </div>
+                    <div class="des">
+                         این سایت توسط دانش آموزان دبیرستان متوسطه اول پژوهش (استان گلستان-شهرستان کلاله-روستای صوفی شیخ داز) به عنوان ایده ای برای شرکت در یازدهمین دوره جشنواره نوجوان خوارزمی (محور برنامه نویسی-زیرمحور طراحی سایت) طراحی و ایجاد شده است. ما در این سایت سعی نموده ایم تا ضمن معرفی دبیرستان خود و فرهنگ و هنر ترکمن ها به عنوان یکی از اقوام اصیل ایرانی، بستری را برای معرفی و فروش صنایع دستی ساخته شده توسط دانش آموزان بااستعداد و هنرمند  این دبیرستان فراهم نمائیم. ما بر این باوریم که این بستر می تواند از طریق درآمدزایی برای دانش آموزان مستعد، زمینه را برای توانمندسازی و ایجاد اشتغال پایدار برای آنها در آینده فراهم نماید.
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <di class="left">
+                    <div class="title">
+                       ما را در شبکه های اجتماعی دنبال کنید
+                    </div>
+                    <style>
+                        /* استایل کلی دکمه‌های شبکه اجتماعی */
+                        .socials {
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            gap: 15px;
+                            padding: 50px;
+                             
+                        }
+                
+                        .socials a {
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            width: 50px;
+                            height: 50px;
+                            background-color: white;
+                            border-radius: 10px; /* برای مربع شدن */
+                            text-decoration: none;
+                            background-size: 103%;
+                            background-repeat: no-repeat;
+                            background-position: center;
+                            transition: 0.3s;
+                        }
+                
+                        .socials a:hover {
+                            background-color: #ddd;
+                        }
+                
+                        /* لینک آیکون‌های سفارشی */
+                        .shad { background-image: url('./img2/-2147483648_-218798.jpg'); }
+                        .eitaa { background-image: url('./img2/-2147483648_-218788.jpg'); }
+                        .soroush { background-image: url('./img2/-2147483648_-218785.jpg'); }
+                        .rubika { background-image: url('./img2/-2147483648_-218787.jpg'); }
+                
+                    </style>
+                </head>
+                <body>
+                
+                    <div class="socials">
+                        <a href="http://shad.ir/aylin__ir42ewqeaXSAWQ   " class="shad"></a>
+                        <a href="http://eitaa.com/melissa_bakhskandeh" class="eitaa"></a>
+                        <a href="http://splus.ir/melissa_bakhskandeh" class="soroush"></a>
+                        <a href="http://rubika.ir/aylin_ghojoghi" class="rubika"></a>
+                    </div>
+                
+                </body>
+                </di>
+            </div>
+        </div>
+        <div class="bottom">
+            کلیه حقوق محفوظ می باشد 2024
+        </div>
+    </footer> 
+    <script src="./js/main3.js"></script>
+    <script
+    src="https://code.jquery.com/jpuery-3.4.1.min.js"
+    integrity="sha256-CSXorXvZcTKaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+    crossorigin="anonymous"
+    ></script>
+    <script src="./js/owl.carousel.min.js "></script>
+    <script src="./js/jpuery.js"></script>
+ </body>
+</html>
+  
