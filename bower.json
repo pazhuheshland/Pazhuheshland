@@ -1,13 +1,25 @@
 {
-  "name": "owl.carousel",
-  "version": "2.3.4",
-  "main": [
-    "dist/owl.carousel.js",
-    "dist/assets/owl.carousel.css",
-    "dist/assets/owl.theme.default.css"
+  "name": "flexboxgrid",
+  "version": "6.3.1",
+  "license": "Apache 2",
+  "homepage": "https://github.com/kristoferjoseph/flexboxgrid",
+  "authors": [
+    "@dam"
   ],
-  "ignore": [],
-  "dependencies": {
-    "jquery": ">= 1.8.3"
-  }
+  "description": "Grid based on the flex display property.",
+  "main": "dist/flexboxgrid.css",
+  "keywords": [
+    "browser",
+    "flexbox",
+    "grid",
+    "css"
+  ],
+  "license": "Apache 2",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
 }
