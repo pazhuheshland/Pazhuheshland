@@ -203,6 +203,7 @@
 }
 
 /* supper offer section */
+/* supper offer section */
 .supper-offer-section {
   background-color: #f5f5f5;
   padding: 20px;
@@ -214,17 +215,19 @@
   border-radius: 10px;
   overflow: hidden;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-  max-width: 320px; /* برای هماهنگی با کارت‌ها */
-  margin: 20px auto; /* وسط‌چین کردن بنر */
+  padding: 15px;
 }
 
-.supper-offer-box .head {
+.supper-offer-box-title {
   background-color: #f44336;
   color: white;
   padding: 10px 15px;
   text-align: center;
   font-weight: bold;
-  font-size: 1.2em;
+  font-size: 1.3em;
+  border-radius: 8px;
+  display: block;
+  margin-bottom: 15px;
 }
 
 .supper-offer-box .body {
@@ -232,13 +235,13 @@
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  padding: 20px;
   flex-wrap: wrap;
 }
 
 .supper-offer-box .body .image-container {
   flex: 1;
   text-align: center;
+  padding: 10px;
 }
 
 .supper-offer-box .body .image-container img {
@@ -269,12 +272,44 @@
   margin-bottom: 10px;
 }
 
+.supper-offer-box .body .spesification .off {
+  color: #4caf50;
+  font-weight: bold;
+  font-size: 1.1em;
+  margin-bottom: 10px;
+}
+
 .supper-offer-box .body .spesification .counter-down {
   font-size: 1.2em;
   background-color: #eee;
   padding: 10px 15px;
   border-radius: 5px;
   display: inline-block;
+  margin-top: 10px;
+}
+
+.supper-offer-box .body .spesification .remaining-time {
+  margin-top: 8px;
+  font-size: 0.95em;
+  color: #666;
+}
+
+/* استایل برای بنر کناری */
+.banner {
+  background-color: #ffffff;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  max-width: 320px;
+  margin: 0 auto 20px;
+  text-align: center;
+}
+
+.banner img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 10px;
 }
 
 /* ریسپانسیو برای موبایل */
@@ -282,11 +317,6 @@
   .supper-offer-box .body {
     flex-direction: column;
     text-align: center;
-  }
-
-  .supper-offer-box {
-    max-width: 90%;
-    margin: 20px auto;
   }
 
   .supper-offer-box .body .image-container img {
@@ -309,23 +339,11 @@
     font-size: 1em;
     margin-top: 10px;
   }
- }
-/* استایل برای بنر کناری */
-.banner {
-  background-color: #fff;
-  border-radius: 10px;
-  overflow: hidden;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-  max-width: 320px;
-  margin: 0 auto 20px;
-  text-align: center;
-}
 
-.banner img {
-  width: 100%;
-  height: auto;
-  display: block;
-  border-radius: 10px;
+  .banner {
+    max-width: 90%;
+    margin: 20px auto;
+  }
  }
  /* footer */
  footer{
