@@ -242,7 +242,7 @@
 
 .supper-offer-box .body .image-container img {
   width: 100%;
-  max-width: 250px;
+  max-width: 300px;
   height: auto;
   display: block;
   margin: 0 auto;
@@ -303,6 +303,7 @@
     font-size: 1em;
     margin-top: 10px;
   }
+   }
 
  /* footer */
  footer{
