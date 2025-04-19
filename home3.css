@@ -236,9 +236,11 @@
 
 .supper-offer-box .body .image-container img {
     width: 100%;
-    max-width: 300px;
+    max-width: 100%;
     height: auto;
     border-radius: 10px;
+    display: block;
+    margin: auto;
 }
 
 .supper-offer-box .body .spesification {
