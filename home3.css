@@ -303,6 +303,13 @@
     font-size: 1em;
     margin-top: 10px;
   }
+}.special-sale-banner {
+  width: 100%;
+  max-width: 300px;
+  height: auto;
+  display: block;
+  margin: auto;
+  border-radius: 10px;
 }
  /* footer */
  footer{
