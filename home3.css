@@ -203,7 +203,6 @@
 }
 
 /* supper offer section */
-/* supper offer section */
 .supper-offer-section {
   background-color: #f5f5f5;
   padding: 20px;
@@ -216,6 +215,7 @@
   overflow: hidden;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
   padding: 15px;
+  height: 100%;
 }
 
 .supper-offer-box-title {
@@ -294,15 +294,29 @@
   color: #666;
 }
 
-/* استایل برای بنر کناری */
+/* بنر کناری در سمت چپ */
+.supper-offer-section .row {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: stretch;
+}
+
+.supper-offer-section .col-lg-3 {
+  order: -1; /* بیار سمت چپ */
+  max-width: 25%;
+  flex: 0 0 25%;
+  padding: 0 15px;
+}
+
 .banner {
   background-color: #ffffff;
   border-radius: 10px;
   overflow: hidden;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-  max-width: 320px;
-  margin: 0 auto 20px;
-  text-align: center;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .banner img {
@@ -314,6 +328,21 @@
 
 /* ریسپانسیو برای موبایل */
 @media (max-width: 768px) {
+  .supper-offer-section .row {
+    flex-direction: column;
+  }
+
+  .supper-offer-section .col-lg-3,
+  .supper-offer-section .col-lg-9 {
+    max-width: 100%;
+    flex: 0 0 100%;
+  }
+
+  .banner {
+    margin: 20px auto;
+    max-width: 90%;
+  }
+
   .supper-offer-box .body {
     flex-direction: column;
     text-align: center;
@@ -338,11 +367,6 @@
   .supper-offer-box .body .spesification .counter-down {
     font-size: 1em;
     margin-top: 10px;
-  }
-
-  .banner {
-    max-width: 90%;
-    margin: 20px auto;
   }
  }
  /* footer */
