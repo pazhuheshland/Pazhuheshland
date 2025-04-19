@@ -203,125 +203,79 @@
 }
 
 /* supper offer section */
-.supper-offer-section {
-.supper-offer-section {
-  padding: 20px;
-}
-
-.supper-offer-section .row {
+.offer-wrapper {
   display: flex;
-  flex-wrap: wrap;
   justify-content: space-between;
+  gap: 20px;
+  align-items: stretch;
 }
 
-.supper-offer-box {
-  background-color: #fff;
+.offer-box, .banner {
+  background: #fff;
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0,0,0,0.1);
-  padding: 15px;
-  height: 100%;
+  flex: 1;
+  padding: 10px;
 }
 
-.supper-offer-box-title {
-  display: block;
-  font-weight: bold;
-  font-size: 18px;
-  color: white;
-  background-color: #e53935;
-  padding: 5px 10px;
-  border-radius: 5px;
-  text-align: center;
-  margin-bottom: 10px;
-}
-
-.supper-offer-box .body .row {
-  display: flex;
-  flex-wrap: wrap;
-}
-
-.image-container img {
+.banner img {
   width: 100%;
   height: auto;
   border-radius: 10px;
 }
 
-.spesification {
-  padding: 10px;
+.offer-image img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.supper-offer-box-title {
+  background: red;
+  color: #fff;
+  padding: 5px;
+  border-radius: 5px;
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 10px;
 }
 
 .price-row {
   display: flex;
   justify-content: space-between;
-  margin-bottom: 10px;
-}
-
-.price {
-  color: red;
+  margin: 10px 0;
   font-weight: bold;
 }
 
 .off {
-  background-color: #f44336;
-  color: #fff;
-  padding: 3px 6px;
+  color: white;
+  background: red;
+  padding: 2px 5px;
   border-radius: 5px;
   font-size: 14px;
 }
 
-.title {
-  font-weight: bold;
-  margin-bottom: 10px;
-}
-
 .counter-down {
-  font-size: 18px;
-  color: #333;
   direction: ltr;
-  margin-bottom: 5px;
+  font-size: 18px;
+  margin-top: 5px;
+  color: #333;
 }
 
 .remaining-time {
   font-size: 12px;
-  color: #999;
+  color: #888;
 }
 
-/* بنر سمت راست */
-.banner {
-  background-color: #fff;
-  padding: 10px;
-  border-radius: 10px;
-  height: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.banner img {
-  max-width: 100%;
-  height: auto;
-  border-radius: 10px;
-}
-
-/* رسپانسیو کردن چیدمان برای موبایل */
+/* حالت موبایل */
 @media (max-width: 768px) {
-  .supper-offer-section .row {
-    flex-direction: column-reverse;
-    align-items: center;
+  .offer-wrapper {
+    flex-direction: column;
   }
 
-  .col-lg-9, .col-lg-3 {
-    width: 100%;
-    max-width: 100%;
-  }
-
-  .banner {
-    margin-bottom: 20px;
-  }
-
-  .supper-offer-box {
+  .offer-box, .banner {
     width: 100%;
   }
- }
+}
  /* footer */
  footer{
    background-color: #636e72;
