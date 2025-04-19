@@ -204,115 +204,149 @@
 
 /* supper offer section */
 
-.supper-offer-section{
-   padding: 20px;
-   font-size: 1em;
+.supper-offer-section {
+    padding: 20px;
+    font-size: 1em;
 }
 
-.supper-offer-section .supper-offer-box{
-   text-align: center;
-   box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, .2);
-   border-radius: 5px;
-   margin: 0px 10px;
+.supper-offer-section .supper-offer-box {
+    text-align: center;
+    box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, .2);
+    border-radius: 5px;
+    margin: 0px 10px;
+    background-color: #fff;
+    padding: 15px;
 }
 
-.supper-offer-box .supper-offer-box-title{
-   background-color: #e74c3c;
-   color: white;
-   padding: 8px 30px;
-   display: inline-block;
-   border-bottom-right-radius: 20px;
-   border-bottom-left-radius: 20px;
-
+.supper-offer-box .supper-offer-box-title {
+    background-color: #e74c3c;
+    color: white;
+    padding: 8px 30px;
+    display: inline-block;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    font-weight: bold;
+    margin-bottom: 20px;
 }
 
-.supper-offer-box .body{
-
+.supper-offer-box .body .image-container {
+    text-align: center;
+    padding: 20px;
 }
 
-.supper-offer-box .body .image-container{
-   text-align: center;
-   padding: 30px;
+.supper-offer-box .body .image-container img {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    border-radius: 10px;
 }
 
-.supper-offer-box .body .image-container img{
-   width: 150%;
+.supper-offer-box .body .spesification {
+    padding: 10px;
+    text-align: center;
 }
 
-.supper-offer-box .body .spesification{
-   padding: 30px 5px;
+.supper-offer-box .body .spesification .price-row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
 }
 
-.supper-offer-box .body .spesification .price-row{
-   display: flex;
-   align-items: center;
-   justify-content: center;
-} 
-
-.supper-offer-box .body .spesification .price{
-   margin-left:60px ;
-   color: #444;
-   font-size: 1.2em;
+.supper-offer-box .body .spesification .price {
+    color: #444;
+    font-size: 1.2em;
 }
 
-.supper-offer-box .body .spesification .off{
-   color: white;
-   background-color: #e74c3c;
-   padding: 5px 20px;
-   border-radius: 25px;
+.supper-offer-box .body .spesification .off {
+    color: white;
+    background-color: #e74c3c;
+    padding: 5px 20px;
+    border-radius: 25px;
+    font-weight: bold;
 }
 
-.supper-offer-box .body .spesification .title{
-   margin: 40px 0px;
-   font-weight: bold;
-   color: #444;
-   font-size: 1.4em;
+.supper-offer-box .body .spesification .title {
+    margin: 20px 0;
+    font-weight: bold;
+    color: #444;
+    font-size: 1.3em;
 }
 
-.supper-offer-box .body .spesification .counter-down{
-   border-top: 1px solid rgba(0, 0, 0, .4);
-   margin: 10px 120px;
-   padding-top: 20px;
-   font-weight: bold;
-   color: #666;
-   font-size: 1.5em;
+.supper-offer-box .body .spesification .counter-down {
+    border-top: 1px solid rgba(0, 0, 0, .4);
+    margin: 15px auto;
+    padding-top: 20px;
+    font-weight: bold;
+    color: #666;
+    font-size: 1.3em;
 }
 
-.supper-offer-box .body .spesification .remaining-time{
-   color: #777;
-   font-size: .8em;
-}
- 
-.banner{
-   text-align: center;
-   padding: 0px 5px;
+.supper-offer-box .body .spesification .remaining-time {
+    color: #777;
+    font-size: 0.9em;
+    margin-top: 10px;
 }
 
-.banner img{
-   border-radius: 5px;
-   box-shadow: 0px 2px 8px 0px rgba(0, 0, 0,.2) ;
-   width: 75%;
+.banner {
+    text-align: center;
+    padding: 15px 5px;
 }
 
-.dragble-list img{
-   width: 70% !important;
-   margin: auto;      
-}
-.owl-stage-outer{
-   direction: ltr;
-} 
-
-.dragble-list .title{
-   padding: 0px 20px;
-   padding-bottom: 20px;     
+.banner img {
+    border-radius: 5px;
+    box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, .2);
+    width: 100%;
+    max-width: 250px;
+    height: auto;
 }
 
-.dragble-list .title span{
-   font-size: 1.2em;
-   color: #444;  
-   border-bottom: 3px solid #e74c3c;
-   
+/* Responsive design */
+@media screen and (max-width: 768px) {
+    .supper-offer-section .row {
+        flex-direction: column;
+    }
+
+    .supper-offer-section .col-lg-9,
+    .supper-offer-section .col-lg-3 {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .supper-offer-box .body .spesification .counter-down {
+        margin: 10px auto;
+        font-size: 1.1em;
+    }
+
+    .supper-offer-box .body .spesification .price-row {
+        flex-direction: column;
+    }
+
+    .banner img {
+        max-width: 100%;
+    }
 }
+
+.dragble-list img {
+    width: 70% !important;
+    margin: auto;
+}
+
+.owl-stage-outer {
+    direction: ltr;
+}
+
+.dragble-list .title {
+    padding: 0px 20px;
+    padding-bottom: 20px;
+}
+
+.dragble-list .title span {
+    font-size: 1.2em;
+    color: #444;
+    border-bottom: 3px solid #e74c3c;
+ }
 
  /* footer */
  footer{
